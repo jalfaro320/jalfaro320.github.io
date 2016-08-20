@@ -21,6 +21,43 @@
 	</style>
 </head>
 <body>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#needed">Things Needed</a></li>
+  <li><a href="#series">Series</a></li>
+  <li><a href="#gallery">Gallery</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+
+</body>
 <p>
 <h1>Palete Knife Portraits
   </h>
@@ -34,7 +71,7 @@
     color: white;
      }
    </style>
-<div class='needed'>
+<div id='needed'>
    <h2>
   
   Things Needed
@@ -49,6 +86,9 @@
   </li>
    </div>
 </body>
+
+<div id='series'> 
+
 <table>
   <tr>
     <th>Portrait Series</th>
@@ -81,15 +121,18 @@
     <td>Aug. 2016</td>
   </tr>
 </table>
+</div>
 
 </p>
 <audio controls>
   <source src="http://picosong.com/cdn/b58821f607cea4ebe8e28f4d20559e0d.mp3" type="audio/mpeg">
 </audio>
 
+<div id='gallery'>
 <video width="320" height="240" controls>
   <source src="http://Prgss.jerrysartarama.com/2011-07-25-Uploads/FAL-DickEnsing-PaletteKnives.mp4">
 </video>
+</div>
 
 </body>
 </html>
